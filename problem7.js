@@ -86,25 +86,25 @@
 // console.log(r);
 
 
-// function f(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve("Good Morning!......")
-//         }, 1000);
-//     })
-// }
-// function f1(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve("How are you???...... ")
-//         }, 2000);
-//     })
-// }
-// f()
-// .then(msg=>console.log(msg))
-// f1() 
+function f(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Good Morning!......😃")
+        }, 1000);
+    })
+}
+function f1(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("How are you???...... ")
+        }, 2000);
+    })
+}
+f()
+.then(msg=>console.log(msg))
+f1() 
 
-// .then(msg=>console.log(msg))
+.then(msg=>console.log(msg))
 
 
 
